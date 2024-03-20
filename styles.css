@@ -1,0 +1,96 @@
+fieldset {
+    border: 0;
+}
+svg {
+    width: 20px;
+    height: 20px;
+}
+input {
+    padding: 3px;
+}
+select {
+    padding: 3.5px;
+}
+textarea {
+    height: 60px;
+    width: 315px;
+}
+.payment {
+    margin: auto;
+    border: 1px solid gray;
+    height: 450px;
+    width: 700px;
+}
+.div-title {
+    border-bottom: 1px solid gray;
+    height: 45px;
+    background-color: rgb(247, 241, 241);
+}
+.div-title h2 {
+    margin: 0;
+    padding-block: 9px;
+    padding-left: 10px;
+}
+.div-caution {
+    background-color: rgb(235, 149, 149);
+    color: rgb(155, 39, 39);
+    border-radius: 3px;
+    margin: auto;
+    width: 680px;
+    height: 34px;
+    margin-block: 10px;
+}
+.div-caution p{
+    margin: 0;
+    padding-block: 8px;
+    padding-inline: 10px;
+}
+.input-Card-Numbers {
+    width: 250px;
+}
+.input-FirstName, 
+.input-LastName,
+.input-City {
+    width: 310px;
+}
+.state-postal,
+.card-info,
+.cardHolder-info {
+    display: flex;
+}
+.card-info p {
+    margin: 0;
+}
+.div-buttons {
+    border-top: 1px solid gray;
+    width: 700px;
+    height: 40px;
+    background-color: rgb(247, 241, 241);
+}
+.div-buttons button {
+    float: right;
+    border: none;
+    margin-block: 5px;
+    margin-right: 10px;
+    border-radius: 4px;
+    padding-block: 8px;
+    padding-inline: 11px;
+}
+.textarea-note {
+    margin: 0;
+    color: gray;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+.input-PostalCode,
+.select-state {
+    width: 141px;
+}
+.button-send {
+    background-color: rgb(69, 69, 239);
+    color: white;
+}
+.button-cancel {
+    background-color: gray;
+    color: white;
+}
